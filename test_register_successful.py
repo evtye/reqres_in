@@ -12,4 +12,4 @@ def test_register_successful():
 
     response_json = response.json()
     assert "id" in response_json, f"JSON doesn't have key: 'id'"
-    assert response_json['id'] == 4, f"User id is {response_json['id']}. Id 4 is expected"
+    assert response_json['id'] == 4, f"User id is {response_json['id']}. Id 4 is expected!"
